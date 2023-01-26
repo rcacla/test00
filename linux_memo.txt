@@ -1,0 +1,26 @@
+
+
+
+python3 -m pip freeze
+
+python3 -m venv py_env
+python3 -m venv --without-pip py_env
+
+python3 -m venv py_env
+
+source py_env/bin/activate
+
+wget https://bootstrap.pypa.io/get-pip.py
+python3 get-pip.py
+
+deactivate
+
+pip install numpy
+pip install openpyxl
+pip install pandas
+
+import pandas
+import numpy
+import openpyxl
+
+python3 -m venv py_env2
