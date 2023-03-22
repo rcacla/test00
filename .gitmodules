@@ -1,0 +1,6 @@
+[submodule "sub/test10"]
+	path = sub/test10
+	url = https://github.com/rcacla/test10.git
+[submodule "sub/test20"]
+	path = sub/test20
+	url = https://github.com/rcacla/test20.git
