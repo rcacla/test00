@@ -1,0 +1,140 @@
+
+git config --global user.email rcacla@yahoo.co.jp
+git config --global user.name "rcacla"
+  
+git clone -b ffff https://github.com/rcacla/test00.git
+git clone -b main https://github.com/rcacla/test00.git
+
+git branch zzz
+
+git checkout zzz
+git push -u origin zzz
+ 
+git rev-parse HEAD
+
+git checkout 97decc68abbf531e22d3a8e8bc95e655f0c896fe
+
+a16c1b21bb2ec054a44a63da0bdbcca03a1749a1
+git checkout a16c1b21bb2ec054a44a63da0bdbcca03a1749a1
+
+git clone https://github.com/rcacla/test00.git -b main 
+git clone https://github.com/rcacla/test00.git -b main --recursive
+git clone https://github.com/rcacla/test00.git -b tag00 --recursive
+git clone https://github.com/rcacla/test00.git --recursive
+
+git clone https://github.com/rcacla/test20.git
+
+git submodule
+
+
+git tag
+git checkout -b abc/test00 tag00
+git push -u origin abc/test00 --dry-run
+git push -u origin abc/test00
+git branch -a | grep abc/test00 // linux
+
+git checkout -b abc/test00
+git push -u origin abc/test00
+
+git tag -a tag00 -m "テスト"
+git push origin tag00
+
+ 
+git submodule update --init --recursive
+
+git reset HEAD
+
+git checkout c266f5b2a0632d99fa7633e358ad08da9d2ee560
+git checkout 0a76de26159a20f56bb9e62af8793cd25491a0f1
+git checkout 4234aad9a2a8adc08ab95e85777395ff68c2984f
+cd test00
+git clone https://github.com/rcacla/test00.git
+git clone https://github.com/rcacla/test10.git
+git clone https://github.com/rcacla/test20.git
+
+git clone https://github.com/rcacla/test30.git
+
+git clone -b feature1 https://github.com/rcacla/test20.git
+
+git clone -b main1 https://github.com/rcacla/test10.git
+git clone -b main2 https://github.com/rcacla/test10.git
+
+git clone -b v2 https://github.com/rcacla/test10.git
+
+git clone -b test30 https://github.com/rcacla/test00/test00.git
+
+git add *
+
+git checkout -b test40 test00
+git branch test3test30
+
+git push -u origin test30
+add 
+
+git init
+git add *
+git commit -m "abcd"
+git branch -M main
+git remote rm origin
+git remote add origin https://github.com/rcacla/test00.git
+git push -u origin main --dry-run
+git push -u origin main
+
+git tag v2
+git push origin v2
+
+git rm bbb.txt
+git rm -r zzz
+
+
+git branch
+git branch abc1
+git checkout abc
+
+git checkout master
+git merge abc
+git remote add origin https://github.com/rcacla/test20.git
+git push origin master -u
+
+git remote add origin https://github.com/rcacla/test10.git
+
+git branch -D abc1
+git push --delete origin bbb
+
+git revert HEAD
+git revert 6a412b3ac4e126843ed86d3b455d9c9d2ef4eb85
+git push origin HEAD
+
+///////////////////////////
+// 
+git config --list
+
+git clone https://github.com/rcacla/test00.git
+cd test00
+git add *
+git commit -m "yyyzzzaaa"
+git push -u origin main
+
+git clone https://github.com/ucan-lab/docker-laravel.git
+
+git submodule add https://github.com/rcacla/test10.git
+
+git revert HEAD
+git push origin HEAD
+git revert 0a76de26159a20f56bb9e62af8793cd25491a0f
+
+git reset --hard 0a76de26159a20f56bb9e62af8793cd25491a0f
+
+git init --bare --share
+
+git clone C:\work\dev\14_git\00_testgit\00\test50
+
+git revert d58de35bdda02340f63f55f3aee2fbf54d144eff
+git revert f1b5d371df24dce8645ede3fdc8882529620a7d7
+
+git checkout 710fb7633db4f06ebb4a5474189443efd393d374
+
+git checkout -b bra000 54265ce3ffdf580e55cb0bb59f599861f33fe4da
+git push -u origin bra000
+
+
