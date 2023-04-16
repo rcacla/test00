@@ -1,0 +1,11 @@
+
+git branch test00_0
+git branch
+git checkout test00_0 
+git branch
+
+git push -u origin test00_0
+
+git add memo3.txt
+
+
