@@ -9,3 +9,12 @@ git push -u origin test00_0
 git add memo3.txt
 
 
+
+git merge origin/test00_0
+
+git push -u 
+
+git push --delete origin test00_0
+
+
+
